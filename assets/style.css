@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+header{
+    height: 100vh;
+    background-color: #1c1c1c;
+}
+header .nav ul li{
+    display: inline-block;
+    margin: 25px;
+}
+
+header .nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 25px;
+  
+}
+
+header .nav a:hover,
+header .nav a:active{
+    background-color: orange;
+    border-bottom: 5px solid black;
+}
+
+header .title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+}
+
+header .title a{
+    text-decoration: none;
+    color: orange;
+}
+header .title a:hover,
+header .title a:active{
+    color: blanchedalmond;
+}
+
+header .card{
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    position: absolute;
+    display: inline-flex;
+    
+}
+header .card .card-header {
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+header .card a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+header .card p{
+    margin: 10px;
+    padding: 5px;
+    
+}
+header .card1 .card-header {
+    margin: 10px;
+    padding: 5px;
+}
+header .card1{
+    position: absolute;
+    top: 65%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    position: absolute;
+    display: inline-flex;
+}
+header .card1 a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+header .card1 p{
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+section .image img{
+ 
+width: 50%;
+height: 90%;
+position: absolute;
+left: 50%;
+border-radius: 50px;
+}
+
+section .about-school{
+    height: 100vh;
+   
+}
+section .about-school .about-title{
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+   
+}
+
+
+.about-school .about-content img{
+    height: 220px;
+    margin: 10px 5px 10px 25px;
+    display: inline-block;
+}
+.about-school .about-content p{
+display: inline-block;
+
+}
